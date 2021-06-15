@@ -62,7 +62,7 @@ ignore_domain = ['booking']
 domain_set = {'police', 'restaurant', 'hotel', 'taxi', 'attraction', 'train', 'hospital'}
 spacy_en = spacy.load('en_core_web_sm')
 
-dataset_config = os.path.join('data', 'trippy_label_variant', 'multiwoz21.json')
+dataset_config = os.path.join('trippy_label_variant', 'multiwoz21.json')
 with open(dataset_config, "r", encoding='utf-8') as f:
     raw_config = json.load(f)
 class_types = raw_config['class_types']

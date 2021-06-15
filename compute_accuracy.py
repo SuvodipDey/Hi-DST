@@ -29,7 +29,7 @@ if not os.path.isfile(result_file):
     print ("Result file does not exist. Please provide correct key.")
     exit(0)
     
-dataset_config = os.path.join('data', 'trippy_label_variant', 'multiwoz21.json')
+dataset_config = os.path.join('trippy_label_variant', 'multiwoz21.json')
 with open(dataset_config, "r", encoding='utf-8') as f:
     raw_config = json.load(f)
 class_types = raw_config['class_types']

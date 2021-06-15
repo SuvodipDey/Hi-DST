@@ -102,7 +102,7 @@ question_dict['time'] = 'What is the booking time of the domain?'
 hotel_type = ["hotel", "guesthouse", "guest house", "lodge"]
 attraction_type = ['sport', 'entertainment', 'cinema', 'museum', 'theatre', 'church', 'boat', 'architecture', 'college', 'park', 'theater', 'camboats', 'concert', 'park', 'concert', 'hiking', 'historical', 'gallery', 'nightclub', 'special', 'swimming', 'gastropub', 'outdoor', 'pool', 'pub', 'club', 'swim', 'hall', 'movie']
 
-dataset_config = os.path.join('data', 'trippy_label_variant', 'multiwoz21.json')
+dataset_config = os.path.join('trippy_label_variant', 'multiwoz21.json')
 with open(dataset_config, "r", encoding='utf-8') as f:
     raw_config = json.load(f)
 class_types = raw_config['class_types']

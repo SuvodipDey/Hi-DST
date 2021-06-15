@@ -1,0 +1,7 @@
+pandas==1.2.1
+torch==1.7.1
+scikit-learn==0.23.2
+transformers==4.2.2
+spacy==2.3.5
+num2words==0.5.10
+torchtext

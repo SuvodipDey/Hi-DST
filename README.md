@@ -10,7 +10,7 @@ Unzip "data/mwz2.1.7z" file.
 ```
 
 ## Dataset
-Download MultiWOZ 2.1 dataset from https://github.com/budzianowski/multiwoz/tree/master/data followed by the required pre-processing. The pre-processed data is already availavle in the "data/mwz2.1" directory. File "data/mwz2.1/data2.2.json" contains the MultiWOZ 2.2 annotations.
+Download MultiWOZ 2.1 dataset from https://github.com/budzianowski/multiwoz/tree/master/data followed by the required pre-processing instructen in https://github.com/budzianowski/multiwoz. The pre-processed data is already available in the "data/mwz2.1" directory. File "data/mwz2.1/data2.2.json" contains the MultiWOZ 2.2 annotations.
 
 ## Label variant map
 File "trippy_label_variant/multiwoz21.json" contains the label variant map used by TriPpy (https://gitlab.cs.uni-duesseldorf.de/general/dsml/trippy-public/blob/master/dataset_config/multiwoz21.json) with few additional variants.
@@ -56,7 +56,7 @@ File "trippy_label_variant/multiwoz21.json" contains the label variant map used 
 ❱❱❱ python train_slot_value.py -in=${slot_data_path} -path=${wd_slot_val} -src_file=train_slot_value.py > ${wd_slot_val}/log.txt
 ```
 
-## Generate the DST predictions
+## Generate DST predictions
 ```console
 ❱❱❱ model_key=1
 ❱❱❱ result_dir=result
